@@ -1,7 +1,7 @@
 <h1 style="text-align:center">Coffee Shop Frontend</h1>
 
-<div style="display:flex; justify-content:center">
-    <img src="assets/logo-html-css.jpg">
+<div style="display:flex; justify-content:center; ">
+    <img src="assets/logo-html-css.jpg" width=400;>
 </div>
 
 # Introduction
