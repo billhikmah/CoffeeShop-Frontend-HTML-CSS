@@ -424,7 +424,7 @@ body {
     }
     .login{
         height: 40px;
-        width: 80px;
+        width: 100px;
     }
     .form-label{
         font-size: 15px;
@@ -466,10 +466,10 @@ body {
         margin-top: 20px;
     }
     .footer-content-2 .product{
-        margin-right: 15px;
+        margin-right: 25px;
     }
     .footer-content-2 .engage{
-        margin-left: 10px;
+        margin-left: 25px;
     }
     .footer-content-2{
         margin-bottom: 40px;
