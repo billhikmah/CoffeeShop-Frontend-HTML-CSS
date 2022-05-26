@@ -16,7 +16,6 @@ body {
     /* position: absolute; */
     width: 682px;
     height: 1100px;
-    left: 1px;
     top: 0px;
     object-fit: cover;
 }
@@ -111,8 +110,6 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-}
-.form{
     flex:7;
     margin-left: 80px;
     margin-right: 80px;
@@ -401,16 +398,6 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     .col-s-none {display: none;}
@@ -429,7 +416,6 @@ body {
     .form-label{
         font-size: 15px;
         line-height: 24px;
-        color: #4F5665;
         margin-bottom: 5px;
         margin-top: 15px;
     }
@@ -446,7 +432,6 @@ body {
         flex-direction: column;
         position: static;
         margin: 0;
-        /* box-shadow: none; */
         border-radius: 0px;
     }
     .box-1-left-1{
@@ -454,7 +439,6 @@ body {
         font-size: 20px;
     }
     .flex-container{
-        width: 100vw;
         grid-gap: 0;
     }
     .footer{
@@ -488,20 +472,102 @@ body {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50px;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    .login{
+        height: 40px;
+        width: 100px;
+    }
+    .aside-image {
+        height: 750px;
+        object-fit: cover;
+    }
+    .flex-container{
+        grid-gap: 0;
+    }
+    .margin{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s-height{
+        height: 50px;
+        padding: 10px;
+    }
+    .form-label{
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .form-input::placeholder{
+        font-size: 15px;
+    }
+    .image-1{
+        margin-left: 0;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+    .form{
+        flex: 5;
+    }
+    .box{
+    height: 100px;
+    top: 700px;
+    margin: 0 10vw 0 10vw;
+    padding: 20px;        
+    }
+    .box-1-left-1{
+        font-size: 25px;
+    }
+    .box-1-left-2{
+        font-size: 16px;
+    }
+    .box-1-right{
+    width: 150px;
+    font-size: 12px;
+    }
+    .footer{
+    padding-top: 70px;
+    height: auto;
+    }
+    .footer-content-1{
+        flex: 11;
+    }
+    .footer-content-2{
+        padding-bottom: 40px;
+        flex: 6;
+    }
+    .image-3 {
+        width: 23px;
+        position: relative;
+    }
+    .title-2{
+        font-size: 15px;
+    }  
+    .desc{
+        font-size: 12px;
+    }  
+    .list{
+        margin: 2px 0px 2px 0px;
+        font-size: 12px;
+    }
+    .list-title{
+        margin: 2px 0px 2px 0px;
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 786px) {
