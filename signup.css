@@ -421,11 +421,15 @@ body {
     .col-s-12 {width: 100vw;}
     .col-s-none {display: none;}
     .margin{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .box{
+        flex-direction: column;
+        position: static;
+        margin: 0;
     }
+    .box-1-right{}
     .footer{
         display: none;
     }
@@ -435,6 +439,9 @@ body {
     }
     .login{
         margin-top: 20px;
+    }
+    .flex-container-2{
+        display: none;
     }
 }
 
