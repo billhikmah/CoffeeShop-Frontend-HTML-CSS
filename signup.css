@@ -423,6 +423,7 @@ body {
         position: static;
         margin: 0;
         box-shadow: none;
+        border-radius: 0px;
     }
     .box-1-left-1{
         font-size: 25px;
@@ -444,6 +445,12 @@ body {
         flex: 50%;
         flex-direction: column-reverse;
         margin-top: 20px;
+    }
+    .footer-content-2 .product{
+        margin-right: 25px;
+    }
+    .footer-content-2 .engage{
+        margin-left: 25px;
     }
     .footer-content-2{
         margin-bottom: 20px;
