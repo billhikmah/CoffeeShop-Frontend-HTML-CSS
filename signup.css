@@ -12,9 +12,6 @@ body {
     flex-direction: row;
     background: rgba(255, 255, 255, 1);
 }
-.aside-content{
-    /* flex:1; */
-}
 .aside-image {
     /* position: absolute; */
     width: 682px;
@@ -36,7 +33,6 @@ body {
     grid-gap: 100px;
     margin-top: 60px;
 }
-
 .title {
     grid-column: 1 / 2;
     text-align: left;
@@ -256,7 +252,7 @@ body {
 .box-1-right:active{
     background: rgb(156, 109, 13)
 }
-#box-1-left-1{
+.box-1-left-1{
     width: 350.61px;
 
     font-family: 'Rubik', sans-serif;
@@ -266,7 +262,7 @@ body {
     line-height: 45px;
     color: #0B132A;
 }
-#box-1-left-2{
+.box-1-left-2{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 10;
@@ -305,11 +301,11 @@ body {
     position: relative;
 }
 .footer-content-2{
-    flex: 2;
+    flex: 4;
     margin-right: 10px;
-}
-.footer-content-3{
-    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .list {
     margin:10px 0px 10px 0px;
@@ -410,15 +406,13 @@ body {
     .col-s-3 {width: 25%;}
     .col-s-4 {width: 33.33%;}
     .col-s-5 {width: 41.66%;}
-    .col-s-6 {
-        width: 50%;
-    }
+    .col-s-6 {width: 50%;}
     .col-s-7 {width: 58.33%;}
     .col-s-8 {width: 66.66%;}
     .col-s-9 {width: 75%;}
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100vw;}
+    .col-s-12 {width: 100%;}
     .col-s-none {display: none;}
     .margin{
         margin-left: auto;
@@ -428,10 +422,10 @@ body {
         flex-direction: column;
         position: static;
         margin: 0;
+        box-shadow: none;
     }
-    .box-1-right{}
-    .footer{
-        display: none;
+    .box-1-left-1{
+        font-size: 25px;
     }
     .flex-container{
         width: 100vw;
@@ -440,7 +434,24 @@ body {
     .login{
         margin-top: 20px;
     }
-    .flex-container-2{
+    .button {
+        box-shadow: none;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-content{
+        flex: 50%;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .footer-content-2{
+        margin-bottom: 20px;
+    }
+    .space-1{
+        display: none;
+    }
+    .space-2{
         display: none;
     }
 }
