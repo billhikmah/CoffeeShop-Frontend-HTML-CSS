@@ -84,16 +84,35 @@
 
 }
 .navigation-3-content{
-    /* flex: 1; */
-    margin: 0px 20px 0px 20px;
-    /* padding-left: 10px; */
-    height: 30px;
-    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    padding-top: 13px;
+    border-radius: 50px;
+    width: 150px;
+    height: 45px;
 }
-.navigation-3-content:hover{
+.signup-button{
+    color: #6A4029;
+    background: rgba(255, 186, 51, 1);
+}
+.signup-button:hover{
     cursor: pointer;
 }
-.navigation-3-content:active{
+.signup-button:active{
+    cursor: pointer;
+}
+.login-button{
+    color: rgb(0, 0, 0);
+}
+.login-button:hover{
+    cursor: pointer;
+}
+.login-button:active{
     cursor: pointer;
 }
 .image-1{

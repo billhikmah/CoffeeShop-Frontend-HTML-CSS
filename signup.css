@@ -141,7 +141,7 @@ body {
     height: 75px;
     border: 1px solid rgba(79, 86, 101, 1);
     left: 20px;
-    font-size: small;
+    font-size: 20px;
     padding-left:30px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -309,7 +309,7 @@ body {
 }
 .footer-content-2{
     flex: 4;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -325,6 +325,7 @@ body {
     line-height: 30px;
     color: #4F5665;
     padding-left: 10px;
+    /* padding-right: 10px; */
 }
 .list:hover{
     cursor: pointer;
@@ -345,11 +346,13 @@ body {
     line-height: 30px;
     color: #0B132A;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .list-title:hover{
     cursor: pointer;
 }
 .list-title:active{
+    cursor: pointer;
     background: rgb(170, 168, 168);
     border-radius: 10px;
 }
@@ -586,7 +589,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width:1440px){
+@media only screen and (min-width: 769px) and (max-width:1440px){
     /* For desktop: */
     .col-l-1 {width: 8.33%;}
     .col-l-2 {width: 16.66%;}
@@ -602,7 +605,7 @@ body {
     .col-l-12 {width: 100%;}
 }
 @media only screen and (min-width: 1440px){
-    /* For desktop: */
+    /* For xl desktop: */
     .col-xl-1 {width: 8.33%;}
     .col-xl-2 {width: 16.66%;}
     .col-xl-3 {width: 25%;}
