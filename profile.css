@@ -211,11 +211,10 @@
     grid-template-rows: auto;
     position: relative;
 }
-.logo{
+.logo-pencil{
     position: absolute;
     right: 20px;
-    width: 50;
-    height: 10px;
+    width: 50px;
     object-fit: fill;
 }
 .form{
