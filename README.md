@@ -50,7 +50,7 @@
 <h2>Related Documentation</h2>
 
 1. Server (Backend)<br>
-    Server documentation can be accessed via [Postman](https://documenter.getpostman.com/view/20723287/UyrEguSx). The backend has been deployed to Heroku and the assets have been uploaded to the cloud in the cloudinary.
+    Server documentation can be accessed via [Postman](https://documenter.getpostman.com/view/20723287/UyrEguSx). The backend has been deployed to [Heroku](https://www.heroku.com) and the assets have been uploaded to [Cloudinary]().
 
 2. Client (Frontend)<br>
-    The client side has been documented with React.js framework and deployed on [Netlify](https://starbills.netlify.app/).
+    The client side has been documented with React.js framework and deployed on [Netlify](ttps://www.cloudinary.com).
