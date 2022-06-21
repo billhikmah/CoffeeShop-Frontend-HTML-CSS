@@ -1,11 +1,11 @@
 <h1 style="text-align:center">Starbills Coffee Shop HTML and CSS</h1>
 
-<div style="display:flex; justify-content:center; ">
+<div style="display:flex; justify-content:center; margin-bottom:40px;">
     <img src="assets/logo-html-css.jpg" width=400;>
 </div>
 
 # Introduction
-<div style="display:flex; flex-direction:row">
+<div style="display:flex; flex-direction:row; column-gap:20px">
 <img src="https://img.shields.io/badge/html-5-orange" alt="html">
 <img src="https://img.shields.io/badge/css-3-blue" alt="css">
 </div>
@@ -31,7 +31,6 @@
 9. [Product Details](https://thestarbills.netlify.app/product-details)
 
 <h2>Preview</h2>
-<h3>Login & Sign Up</h3>
 <img src="assets/Homepage.png" alt="homepage" width=420 style="display:flex; justify-content:center; margin-bottom:20px;">
 <div style="display:flex; justify-content: left; column-gap:20px; margin-bottom:20px">
 <img src="assets/frontend-login.png" alt="login" width=200>
