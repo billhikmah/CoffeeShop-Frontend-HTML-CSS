@@ -5,8 +5,10 @@
 </div>
 
 # Introduction
+<div style="display:flex; flex-direction:row">
 <img src="https://img.shields.io/badge/html-5-orange" alt="html">
 <img src="https://img.shields.io/badge/css-3-blue" alt="css">
+</div>
 
 <h2>How to Install</h2>
 
