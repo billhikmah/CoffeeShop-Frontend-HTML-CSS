@@ -14,7 +14,7 @@
 
 1. Clone the repository
     ```
-    https://github.com/billhikmah/Coffee-Shop-Project.git
+    https://github.com/billhikmah/CoffeeShop-Frontend-HTML-CSS
     ```
 2. Open the file using [VSCode](https://code.visualstudio.com/download)
 
